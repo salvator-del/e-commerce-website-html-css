@@ -4,8 +4,13 @@
 /* COLOR VARIABLES */
 :root {
     /* color */
-    --main-text-clr: rgb(34, 34, 34);
-    --p-text-clr: rgb(70, 91, 82);
+    --main-text-clr: hsl(0, 0%, 13%);
+    --p-text-clr: hsl(154, 13%, 32%);
+    --normal-text-clr: hsl(0, 0%, 10%);
+    --hover-clr: hsl(176, 88%, 27%);
+    --nav-bg-color: hsl(229, 40%, 92%);
+    /* font size */
+    --normal-fs: 16px;
   }
 
 /* GLOBAL STYLE INITIALIAZATION */
@@ -45,6 +50,10 @@ p {
     color: var(--p-text-clr);
 }
 
+li {
+    list-style: none;
+}
+
 section-p1 {
     padding: 40px 80px;
 }
@@ -55,4 +64,38 @@ section-m1 {
 
 body {
     width: 100%;
+}
+
+/* HEADER STYLES */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 80px;
+    background-color: var(--nav-bg-color);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+/* HEADER > NAVLIST */
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    padding: 0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: var(--normal-fs);
+    font-weight: 600;
+    color: var(--normal-text-clr);
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover {
+    color: var(--hover-clr);
 }
