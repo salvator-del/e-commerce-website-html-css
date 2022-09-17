@@ -1,0 +1,58 @@
+/* STYLE IMPORT  */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+/* COLOR VARIABLES */
+:root {
+    /* color */
+    --main-text-clr: rgb(34, 34, 34);
+    --p-text-clr: rgb(70, 91, 82);
+  }
+
+/* GLOBAL STYLE INITIALIAZATION */
+*, 
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: var(--main-text-clr);
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: var(--main-text-clr);
+}
+
+h4 {
+    font-size: 20px;
+    color: var(--main-text-clr);
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: var(--p-text-clr);
+}
+
+section-p1 {
+    padding: 40px 80px;
+}
+
+section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
