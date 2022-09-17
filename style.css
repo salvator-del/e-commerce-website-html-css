@@ -4,6 +4,7 @@
 /* COLOR VARIABLES */
 :root {
     /* color */
+    --color-white:rgb(255, 255, 255);
     --main-text-clr: hsl(0, 0%, 13%);
     --p-text-clr: hsl(154, 13%, 32%);
     --normal-text-clr: hsl(0, 0%, 10%);
@@ -39,6 +40,31 @@
   }
 
 /* GLOBAL STYLE INITIALIAZATION */
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: var(--color-white);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: var(--color-white);
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid var(--color-white);
+    outline: none;
+    transition: 0.2s;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -322,4 +348,169 @@ padding-bottom: 10px;}
     height: 40vh;
     background-size: cover;
     background-position: center;
+}
+
+#cta h4 {
+    color: var(--color-white);
+}
+
+#cta h2 {
+    color: var(--color-white);
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#cta h2 span {
+    color: var(--hover-clr);
+    text-shadow: 0 0 0.5px var(--color-white);
+}
+
+#cta button:hover {
+    color: var(--color-white);
+    background: var(--hover-clr);
+}
+
+/* SPECIAL SECTION */
+#special {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#special .b-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    background-image: url(/img/img/banner/b17.jpg);
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#special .b-box2 {
+    background-image: url(/img/img/banner/b10.jpg);
+}
+
+#special h4 {
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#special h2 {
+    color: var(--color-white);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#special span {
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#special .b-box:hover button {
+    background-color: var(--hover-clr);
+    border: 1px solid var(--hover-clr);
+}
+
+/* BANNER SECTION */
+#banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner .b-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(/img/img/banner/b7.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+#banner .b-box-one {
+    background-image: url(/img/img/banner/b4.jpg);
+}
+
+#banner .b-box-two {
+    background-image: url(/img/img/banner/b18.jpg);
+}
+
+#banner h2 {
+    color: var(--normal-text-clr);
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--color-white);
+}
+
+/* NEWSLETTER SECTION */
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin-top: 20px; */
+    background-image: url(/img/img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--color-white);
+    margin-bottom: 10px;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+#newsletter p span {
+    color: var(--star-color);
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    outline: none;
+}
+
+#newsletter button {
+    background-color: var(--hover-clr);
+    color: var(--color-white);
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
