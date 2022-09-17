@@ -27,6 +27,7 @@ h1 {
     font-size: 50px;
     line-height: 64px;
     color: var(--main-text-clr);
+    padding-bottom: 5px;
 }
 
 h2 {
@@ -37,6 +38,7 @@ h2 {
 
 h4 {
     font-size: 20px;
+    padding-bottom: 0;
     color: var(--main-text-clr);
 }
 
@@ -75,6 +77,10 @@ body {
     padding: 20px 80px;
     background-color: var(--nav-bg-color);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 /* HEADER > NAVLIST */
@@ -86,6 +92,8 @@ body {
 
 #navbar li {
     padding: 0 20px;
+    /* THIS WILL MAKE THE AFTER PSEUDO CLASS STYLE SHOW */
+    position: relative;
 }
 
 #navbar li a {
@@ -96,6 +104,55 @@ body {
     transition: 0.3s ease;
 }
 
-#navbar li a:hover {
+#navbar li a:hover,
+#navbar li a.active {
     color: var(--hover-clr);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: var(--hover-clr);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/* HOMEPAGE HERO */
+#hero {
+    background-image: url("img/img/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+color: var(--hover-clr);
+}
+
+#hero p {
+padding-bottom: 10px;}
+
+#hero button {
+    background-image: url("/img/img/button.png");
+    background-color: transparent;
+    color: var(--hover-clr);
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
 }
