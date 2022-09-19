@@ -233,10 +233,23 @@
     </footer>
 
 
-    <!-- SCRIPT FOR IMAGE PAGINATION  -->
+    <!-- LOGIC SCRIPT FOR PRODUCT DETAILS  -->
     <script>
-        var bigImage = document.getElementById('bigImage')
-        var smallImage = document.getElementsByClassName('smallImg')
+        var bigImage = document.getElementById('bigImg');
+        var smallImage = document.getElementsByClassName('smallImg');
+
+        smallImage[0].onclick = function() {
+            bigImage.src = smallImage[0].src;
+        }
+        smallImage[1].onclick = function() {
+            bigImage.src = smallImage[1].src;
+        }
+        smallImage[2].onclick = function() {
+            bigImage.src = smallImage[2].src;
+        }
+        smallImage[3].onclick = function() {
+            bigImage.src = smallImage[3].src;
+        }
     </script>
     
 </body>
