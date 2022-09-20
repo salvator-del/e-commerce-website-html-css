@@ -8,13 +8,9 @@
   - [Technologies Used](#technologies-used)
   - [Features](#features)
   - [Screenshots](#screenshots)
-  - [Video](#video)
-  - [Setup](#setup)
   - [Project Status](#project-status)
   - [Room for Improvement](#room-for-improvement)
-  - [Acknowledgements](#acknowledgements)
   - [Contact](#contact)
-  - [License](#license)
 
 
 ## General Information
@@ -33,7 +29,7 @@
 Website features includes:
 - Shopping cart functionalities.
 - Window alerts on purchase and another when user attempt to add an already added item.
-- Cart clearing as a button click.
+- Cart clearing at button click.
 - Responsive web design
 - Mobile first approach for most of the pages.
 
@@ -43,40 +39,20 @@ Website features includes:
 ![Example screenshot](./img/img/readme/cooking%202.PNG)
 ![Example screenshot](./img/img/readme/pro2.PNG)
 
-## Video
-![Submitted Video](./assets/bg.jpg)(https://www.youtube.com/watch?v=UKpdftt-KEw)
-
-
-
-## Setup
-The source codes for this codes can be used and added directly to your HTML, CSS or Javascript files.
-
 
 ## Project Status
-Project is: _in progress_ This is an ongoing project and this is version 1 which i am submitting as CS50 final project. I intend to implement this on an actual landing page for a media company.
+Project is: _in progress_ This is an ongoing project and i intend to add a backend feature soon.
 
 
 ## Room for Improvement
 **Room for improvement**:
-- I believe more features can be added like the ability to permanently store this values in a database.
-- Increase accesibility for tablets (Now, it's just accessible for mobile phones)
+- Increase accesibility for more screens (Now, it's just accessible for mobile and ipad)
 
 To do:
 - Fix accessibility issues
 - Fix SEO standards
-- Create a clone project using django and react
-
-
-## Acknowledgements
-Honorable mentions for 9 weeks of intence knowledge impacted
-- Many thanks to David J. Malan. God bless you sir.
+- Create a clone project using django/python and react
 
 
 ## Contact
-Created by [@Juadebfm](https://www.juadebfm.com/) - feel free to contact me!
-
-
-## License 
-This project is open source and available under the [@HavardCS50](https://cs50.harvard.edu/x/2022/project/).
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Designed & Developed by [@Juadebfm](https://www.juadebfm.com/) - feel free to contact me!
