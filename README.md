@@ -18,9 +18,9 @@
 
 
 ## General Information
-- Looks and feels like a normal TODO App, but created with just HTML, CSS & JavaScript.
-- This is a lightweight, easily customizable app that any company can use on their landing page to organize events and create bullet points of what their events will include.
-- This project was developed in fulfilment of CS50’s Introduction to Computer Science Course Work.
+- Looks and feels like normal REACT E-Commerce SPAʻs, but created with just HTML, CSS & JavaScript.
+- This is a lightweight, easily customizable website, youʻre welcome to fork this repo and hard a backend or as many functionality as you can.
+- Be sure to acknowledge Kabir Chowdhury and [@Juadebfm](https://twitter.com/Juadeb1) .
 
 
 ## Technologies Used
