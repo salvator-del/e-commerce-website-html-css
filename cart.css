@@ -1,0 +1,231 @@
+:root {
+    /* color */
+    --color-white:rgb(255, 255, 255);
+    --main-text-clr: hsl(0, 0%, 13%);
+    --p-text-clr: hsl(154, 13%, 32%);
+    --normal-text-clr: hsl(0, 0%, 10%);
+    --hover-clr: hsl(176, 88%, 27%);
+    --hover-clr-faded: hsl(176, 89%, 21%);
+    --nav-bg-color: hsl(229, 40%, 92%);
+    --bx-shadow: rgba(0, 0, 0, 0.06);
+    --bx-shadow-2: rgba(70, 62, 221, 0.1);
+    --bx-shadow-3: rgba(0, 0, 0, 0.02);
+    --border-color: rgb(204, 231, 208);
+    --star-color: rgb(243, 181, 25);
+    /* font size */
+    --normal-fs: 16px;
+  }
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    border: 1px solid var(--border-color);
+}
+
+.section-header {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.btn-primary {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    background-color: hsl(176, 88%, 27%) !important;
+    color: var(--color-white) !important;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: var(--hover-clr-faded) !important;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+    border: 1px solid var(--border-color);
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    text-align: center;
+    padding-left: 10px;
+    width: 35%;
+}
+
+.cart-item-title {
+    color: var(--normal-text-clr);
+    margin-left: 0.5em;
+    font-size: 14px;
+}
+
+.cart-item-image {
+    width: 75px;
+    margin-left: 1em;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    background-color: hsl(176, 88%, 27%);
+    color: var(--color-white);
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+
+}
+
+.btn-danger:hover {
+    background-color: var(--hover-clr-faded);
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    background-color: hsl(176, 88%, 27%) !important;
+    color: var(--color-white) !important;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.btn-purchase:hover {
+    background-color: var(--hover-clr-faded) !important;
+}
