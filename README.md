@@ -39,7 +39,9 @@ Website features includes:
 
 
 ## Screenshots
-![Example screenshot](./assets/sc.png)
+![Example screenshot](./img/img/readme/cart1.PNG)
+![Example screenshot](./img/img/readme/cooking%202.PNG)
+![Example screenshot](./img/img/readme/pro2.PNG)
 
 ## Video
 ![Submitted Video](./assets/bg.jpg)(https://www.youtube.com/watch?v=UKpdftt-KEw)
