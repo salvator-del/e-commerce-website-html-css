@@ -16,18 +16,6 @@
     --normal-fs: 16px;
   }
 
-.band-name {
-    text-align: center;
-    margin: 0;
-    font-size: 4em;
-    font-weight: normal;
-    color: white;
-}
-
-.band-name-large {
-    font-size: 8em;
-}
-
 .content-section {
     margin: 1em;
 }
@@ -37,7 +25,7 @@
 }
 
 .section-header {
-    font-size: 30px;
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
@@ -69,6 +57,14 @@
     background-color: var(--hover-clr-faded) !important;
 }
 
+.shop-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
 .shop-item {
     margin: 30px;
 }
@@ -78,32 +74,25 @@
     width: 100%;
     text-align: center;
     font-weight: bold;
-    font-size: 1.5em;
-    color: #333;
+    font-size: 14px;
+    color: var(--normal-text-clr);
     margin-bottom: 15px;
 }
 
 .shop-item-image {
-    height: 250px;
+    height: 200px;
 }
 
 .shop-item-details {
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 5px;
 }
 
 .shop-item-price {
-    flex-grow: 1;
-    color: #333;
+    color: var(--normal-text-clr);
 }
-
-.shop-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 .cart-header {
     font-weight: bold;
     font-size: 1.25em;
