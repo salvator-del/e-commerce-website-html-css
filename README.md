@@ -30,11 +30,12 @@
 
 
 ## Features
-App features includes:
-- Add events.
-- Add event bullet points (i.e things to cover on every event topic).
-- Clear events bullets points.
-- Delete events.
+Website features includes:
+- Shopping cart functionalities.
+- Window alerts on purchase and another when user attempt to add an already added item.
+- Cart clearing as a button click.
+- Responsive web design
+- Mobile first approach for most of the pages.
 
 
 ## Screenshots
